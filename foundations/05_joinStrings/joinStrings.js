@@ -13,7 +13,7 @@ const lastName = "Stevenson";
 let thisYear = 1965;
 const birthYear = 1947;
 
-let greeting = "Hello! My name is " + firstName + " and I am" + thisYear - birthYear + " years old.";
+let greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
 // Do not change this
 module.exports = {
