@@ -3,11 +3,13 @@
 // Return the resulting array
 
 const removeFromArray = function(arr, ...args) {
-  const index = arr.indexOf(...args);
+  // const index = arr.indexOf(...args);
   
-  arr.splice(index, 1);
+  // arr.splice(index, Infinity);
   
-  return arr; 
+  // return arr; 
+  const newArr = arr.filter(item => !args.includes(item));
+  return newArr;
 }
 
 // Do not edit below this line
